@@ -1,4 +1,4 @@
-# Proyecto final:
+# Final Proyect:
 def greet(bot_name, birth_year):
     print('Hello! My name is ' + bot_name + '.')
     print('I was created in ' + birth_year + '.')
@@ -42,10 +42,10 @@ def test():
     answer = int(input())
     print('Completed, have a nice day!' if answer == 2 else 'Please, try again.')
  
-# ¿por qué sale en rosa?
 def end():
     print('Congratulations, have a nice day!')
 
+# Executing the bot
 greet('Aid', '2020')  # change it as you need
 remind_name()
 guess_age()
